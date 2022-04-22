@@ -1,0 +1,21 @@
+<script>
+	const deleteABook = (e, redirect) => {
+		e.preventDefault();
+		let isExecuted = confirm("Are you sure to delete this book?");
+		if (isExecuted) {
+			window.location.href = redirect;
+		}
+	}
+</script>
+
+<div class="home">
+	<p>To delete a book, click on red X button </p>
+	<div class="book-items">
+		{{#each books}}
+		<div class="book-item">
+			<a onclick="deleteABook(event,'/DeleteABook/{{bookNumber}}')">X</a>
+			{{bookName}}
+		</div>
+		{{/each}}
+	</div>
+</div>

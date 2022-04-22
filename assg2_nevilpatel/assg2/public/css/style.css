@@ -1,0 +1,51 @@
+.navbar {
+  color: red; margin-top: 24px;
+}
+
+.navbar a {
+  padding: 0 3px; text-decoration: none;  color: #000000;
+}
+
+.home>p {
+  color: #2a9956; font-weight: bold;
+}
+
+.book-items {
+  width: fit-content;border: 2px solid #707070;
+}
+
+.book-item {
+  display: block;padding: 18px; border: 2px solid #707070; text-decoration: none;color: #000000;
+}
+
+.book-item a {
+  padding: 3px; margin-right: 6px; border: 1px solid #707070; text-decoration: none; color: red;
+}
+
+
+.book>p {
+  text-decoration: unset;font-weight: bold;
+}
+
+.book-block {
+  width: fit-content;border: 2px solid #707070;
+}
+
+.book-info {
+  text-decoration: unset;display: block;padding: 18px;border: 2px solid #707070;margin: 0;color: #000000;
+}
+
+
+
+
+.add-book p {
+  text-decoration: unset;font-weight: bold;
+}
+
+.add-book div {
+  display: block;margin-bottom: 12px;
+}
+
+.add-book label {
+  display: block;
+}
